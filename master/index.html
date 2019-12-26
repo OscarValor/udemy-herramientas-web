@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <!-- Estos links son para el favicon -->
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#3c4a4e">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <!-- Este script es necesario para que fontawesome me reconozca los iconos -->
     <script src="https://kit.fontawesome.com/bef5628b03.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
@@ -12,18 +19,19 @@
     <link rel="stylesheet" href="font-awesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/estilo.css">
-    @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 
     <!-- Estilos de los recursos adicionales -->
-    
     
 
   </head>
   <body>
 
     <div class="container">
-
+     <h2 id="txtArc"> OSCAR VALOR MUÑOZ </h2>
+     <br>
+     <br>
+     <br>
       <button type="button" class="btn btn-primary"><i class="fas fa-save"> Guardar</i></button>
       <button type="button" class="btn btn-primary"><i class="fas fa-sync-alt fa-spin"></i> Guardando...</button>
       <div class="page-header">
@@ -84,9 +92,11 @@
     <!-- Librerías adicionales -->
     <script src="lib/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+  
 
     <!-- Librerías de plugins -->
-
+    <!-- Librerías adicionales- esta librería es para escribir texto curvo -->
+    <script src="plugins/arctext/jquery.arctext.js"></script> 
 
     <!-- Archivo personalizado de Javascript -->
     <script src="lib/curso.js"></script>
